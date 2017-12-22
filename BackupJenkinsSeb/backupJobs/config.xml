@@ -1,0 +1,867 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors>
+    <string>jenkins.security.s2m.MasterKillSwitchWarning</string>
+    <string>hudson.diagnosis.ReverseProxySetupMonitor</string>
+    <string>jenkins.model.DownloadSettings$Warning</string>
+    <string>hudsonHomeIsFull</string>
+  </disabledAdministrativeMonitors>
+  <version>2.73</version>
+  <numExecutors>10</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.GlobalMatrixAuthorizationStrategy">
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:amoutaki</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:hanbeir</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:ibouhamidi</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:ilabyad</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:mjeffreoui</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:yelaissaoui</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:yelomarialaoui</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:amoutaki</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:hanbeir</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:ibouhamidi</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:ilabyad</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:mjeffreoui</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:syounoussi</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:yelaissaoui</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:yelomarialaoui</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:amoutaki</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:hanbeir</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:ibouhamidi</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:ilabyad</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:mjeffreoui</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:yelaissaoui</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:yelomarialaoui</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:amoutaki</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:hanbeir</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:ibouhamidi</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:ilabyad</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:mjeffreoui</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:yelaissaoui</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:yelomarialaoui</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:amoutaki</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:hanbeir</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:ibouhamidi</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:ilabyad</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:mjeffreoui</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:yelaissaoui</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:yelomarialaoui</permission>
+    <permission>hudson.model.Computer.Build:amoutaki</permission>
+    <permission>hudson.model.Computer.Build:hanbeir</permission>
+    <permission>hudson.model.Computer.Build:ibouhamidi</permission>
+    <permission>hudson.model.Computer.Build:ilabyad</permission>
+    <permission>hudson.model.Computer.Build:mjeffreoui</permission>
+    <permission>hudson.model.Computer.Build:yelaissaoui</permission>
+    <permission>hudson.model.Computer.Build:yelomarialaoui</permission>
+    <permission>hudson.model.Computer.Configure:amoutaki</permission>
+    <permission>hudson.model.Computer.Configure:hanbeir</permission>
+    <permission>hudson.model.Computer.Configure:ibouhamidi</permission>
+    <permission>hudson.model.Computer.Configure:ilabyad</permission>
+    <permission>hudson.model.Computer.Configure:mjeffreoui</permission>
+    <permission>hudson.model.Computer.Configure:yelaissaoui</permission>
+    <permission>hudson.model.Computer.Configure:yelomarialaoui</permission>
+    <permission>hudson.model.Computer.Connect:amoutaki</permission>
+    <permission>hudson.model.Computer.Connect:hanbeir</permission>
+    <permission>hudson.model.Computer.Connect:ibouhamidi</permission>
+    <permission>hudson.model.Computer.Connect:ilabyad</permission>
+    <permission>hudson.model.Computer.Connect:mjeffreoui</permission>
+    <permission>hudson.model.Computer.Connect:yelaissaoui</permission>
+    <permission>hudson.model.Computer.Connect:yelomarialaoui</permission>
+    <permission>hudson.model.Computer.Create:amoutaki</permission>
+    <permission>hudson.model.Computer.Create:hanbeir</permission>
+    <permission>hudson.model.Computer.Create:ibouhamidi</permission>
+    <permission>hudson.model.Computer.Create:ilabyad</permission>
+    <permission>hudson.model.Computer.Create:mjeffreoui</permission>
+    <permission>hudson.model.Computer.Create:yelaissaoui</permission>
+    <permission>hudson.model.Computer.Create:yelomarialaoui</permission>
+    <permission>hudson.model.Computer.Delete:amoutaki</permission>
+    <permission>hudson.model.Computer.Delete:hanbeir</permission>
+    <permission>hudson.model.Computer.Delete:ibouhamidi</permission>
+    <permission>hudson.model.Computer.Delete:ilabyad</permission>
+    <permission>hudson.model.Computer.Delete:mjeffreoui</permission>
+    <permission>hudson.model.Computer.Delete:yelaissaoui</permission>
+    <permission>hudson.model.Computer.Delete:yelomarialaoui</permission>
+    <permission>hudson.model.Computer.Disconnect:amoutaki</permission>
+    <permission>hudson.model.Computer.Disconnect:hanbeir</permission>
+    <permission>hudson.model.Computer.Disconnect:ibouhamidi</permission>
+    <permission>hudson.model.Computer.Disconnect:ilabyad</permission>
+    <permission>hudson.model.Computer.Disconnect:mjeffreoui</permission>
+    <permission>hudson.model.Computer.Disconnect:yelaissaoui</permission>
+    <permission>hudson.model.Computer.Disconnect:yelomarialaoui</permission>
+    <permission>hudson.model.Computer.Provision:amoutaki</permission>
+    <permission>hudson.model.Computer.Provision:yelaissaoui</permission>
+    <permission>hudson.model.Computer.Provision:yelomarialaoui</permission>
+    <permission>hudson.model.Hudson.Administer:amoutaki</permission>
+    <permission>hudson.model.Hudson.Administer:hanbeir</permission>
+    <permission>hudson.model.Hudson.Administer:ibouhamidi</permission>
+    <permission>hudson.model.Hudson.Administer:ilabyad</permission>
+    <permission>hudson.model.Hudson.Administer:mjeffreoui</permission>
+    <permission>hudson.model.Hudson.Administer:yelaissaoui</permission>
+    <permission>hudson.model.Hudson.Administer:yelomarialaoui</permission>
+    <permission>hudson.model.Hudson.Read:aazri</permission>
+    <permission>hudson.model.Hudson.Read:abenamer</permission>
+    <permission>hudson.model.Hudson.Read:aheddoun</permission>
+    <permission>hudson.model.Hudson.Read:ahoutti</permission>
+    <permission>hudson.model.Hudson.Read:amasaaf</permission>
+    <permission>hudson.model.Hudson.Read:amoutaki</permission>
+    <permission>hudson.model.Hudson.Read:aoufdou</permission>
+    <permission>hudson.model.Hudson.Read:asekkoume</permission>
+    <permission>hudson.model.Hudson.Read:bbousnguar</permission>
+    <permission>hudson.model.Hudson.Read:dfaridi</permission>
+    <permission>hudson.model.Hudson.Read:felgziri</permission>
+    <permission>hudson.model.Hudson.Read:felhassan</permission>
+    <permission>hudson.model.Hudson.Read:hafcalmous</permission>
+    <permission>hudson.model.Hudson.Read:hanbeir</permission>
+    <permission>hudson.model.Hudson.Read:helasri</permission>
+    <permission>hudson.model.Hudson.Read:helyacouti</permission>
+    <permission>hudson.model.Hudson.Read:hmouloudi</permission>
+    <permission>hudson.model.Hudson.Read:ibouali</permission>
+    <permission>hudson.model.Hudson.Read:ibouhamidi</permission>
+    <permission>hudson.model.Hudson.Read:ierrais</permission>
+    <permission>hudson.model.Hudson.Read:iimmel</permission>
+    <permission>hudson.model.Hudson.Read:ilabyad</permission>
+    <permission>hudson.model.Hudson.Read:jbenabra</permission>
+    <permission>hudson.model.Hudson.Read:jbousbaa</permission>
+    <permission>hudson.model.Hudson.Read:kaithililou</permission>
+    <permission>hudson.model.Hudson.Read:kbimik</permission>
+    <permission>hudson.model.Hudson.Read:kboudlali</permission>
+    <permission>hudson.model.Hudson.Read:kdaha</permission>
+    <permission>hudson.model.Hudson.Read:klahyani</permission>
+    <permission>hudson.model.Hudson.Read:ljenbil</permission>
+    <permission>hudson.model.Hudson.Read:mbettioui</permission>
+    <permission>hudson.model.Hudson.Read:mboushaba</permission>
+    <permission>hudson.model.Hudson.Read:mjeffreoui</permission>
+    <permission>hudson.model.Hudson.Read:okhrubiche</permission>
+    <permission>hudson.model.Hudson.Read:soudriss</permission>
+    <permission>hudson.model.Hudson.Read:sthuveny</permission>
+    <permission>hudson.model.Hudson.Read:syounoussi</permission>
+    <permission>hudson.model.Hudson.Read:yelaissaoui</permission>
+    <permission>hudson.model.Hudson.Read:yelomarialaoui</permission>
+    <permission>hudson.model.Hudson.Read:yharif</permission>
+    <permission>hudson.model.Hudson.Read:zhalhoul</permission>
+    <permission>hudson.model.Item.Build:aazri</permission>
+    <permission>hudson.model.Item.Build:abenamer</permission>
+    <permission>hudson.model.Item.Build:aheddoun</permission>
+    <permission>hudson.model.Item.Build:ahoutti</permission>
+    <permission>hudson.model.Item.Build:amasaaf</permission>
+    <permission>hudson.model.Item.Build:amoutaki</permission>
+    <permission>hudson.model.Item.Build:aoufdou</permission>
+    <permission>hudson.model.Item.Build:asekkoume</permission>
+    <permission>hudson.model.Item.Build:bbousnguar</permission>
+    <permission>hudson.model.Item.Build:dfaridi</permission>
+    <permission>hudson.model.Item.Build:felgziri</permission>
+    <permission>hudson.model.Item.Build:felhassan</permission>
+    <permission>hudson.model.Item.Build:hafcalmous</permission>
+    <permission>hudson.model.Item.Build:hanbeir</permission>
+    <permission>hudson.model.Item.Build:helasri</permission>
+    <permission>hudson.model.Item.Build:helyacouti</permission>
+    <permission>hudson.model.Item.Build:hmouloudi</permission>
+    <permission>hudson.model.Item.Build:ibouali</permission>
+    <permission>hudson.model.Item.Build:ibouhamidi</permission>
+    <permission>hudson.model.Item.Build:ierrais</permission>
+    <permission>hudson.model.Item.Build:iimmel</permission>
+    <permission>hudson.model.Item.Build:ilabyad</permission>
+    <permission>hudson.model.Item.Build:jbenabra</permission>
+    <permission>hudson.model.Item.Build:jbousbaa</permission>
+    <permission>hudson.model.Item.Build:kaithililou</permission>
+    <permission>hudson.model.Item.Build:kbimik</permission>
+    <permission>hudson.model.Item.Build:kboudlali</permission>
+    <permission>hudson.model.Item.Build:kdaha</permission>
+    <permission>hudson.model.Item.Build:klahyani</permission>
+    <permission>hudson.model.Item.Build:ljenbil</permission>
+    <permission>hudson.model.Item.Build:mbettioui</permission>
+    <permission>hudson.model.Item.Build:mboushaba</permission>
+    <permission>hudson.model.Item.Build:mjeffreoui</permission>
+    <permission>hudson.model.Item.Build:okhrubiche</permission>
+    <permission>hudson.model.Item.Build:soudriss</permission>
+    <permission>hudson.model.Item.Build:sthuveny</permission>
+    <permission>hudson.model.Item.Build:syounoussi</permission>
+    <permission>hudson.model.Item.Build:yelaissaoui</permission>
+    <permission>hudson.model.Item.Build:yelomarialaoui</permission>
+    <permission>hudson.model.Item.Build:yharif</permission>
+    <permission>hudson.model.Item.Build:zhalhoul</permission>
+    <permission>hudson.model.Item.Cancel:aazri</permission>
+    <permission>hudson.model.Item.Cancel:abenamer</permission>
+    <permission>hudson.model.Item.Cancel:aheddoun</permission>
+    <permission>hudson.model.Item.Cancel:ahoutti</permission>
+    <permission>hudson.model.Item.Cancel:amasaaf</permission>
+    <permission>hudson.model.Item.Cancel:amoutaki</permission>
+    <permission>hudson.model.Item.Cancel:aoufdou</permission>
+    <permission>hudson.model.Item.Cancel:asekkoume</permission>
+    <permission>hudson.model.Item.Cancel:bbousnguar</permission>
+    <permission>hudson.model.Item.Cancel:dfaridi</permission>
+    <permission>hudson.model.Item.Cancel:felgziri</permission>
+    <permission>hudson.model.Item.Cancel:felhassan</permission>
+    <permission>hudson.model.Item.Cancel:hafcalmous</permission>
+    <permission>hudson.model.Item.Cancel:hanbeir</permission>
+    <permission>hudson.model.Item.Cancel:helasri</permission>
+    <permission>hudson.model.Item.Cancel:helyacouti</permission>
+    <permission>hudson.model.Item.Cancel:hmouloudi</permission>
+    <permission>hudson.model.Item.Cancel:ibouali</permission>
+    <permission>hudson.model.Item.Cancel:ibouhamidi</permission>
+    <permission>hudson.model.Item.Cancel:ierrais</permission>
+    <permission>hudson.model.Item.Cancel:iimmel</permission>
+    <permission>hudson.model.Item.Cancel:ilabyad</permission>
+    <permission>hudson.model.Item.Cancel:jbenabra</permission>
+    <permission>hudson.model.Item.Cancel:jbousbaa</permission>
+    <permission>hudson.model.Item.Cancel:kaithililou</permission>
+    <permission>hudson.model.Item.Cancel:kbimik</permission>
+    <permission>hudson.model.Item.Cancel:kboudlali</permission>
+    <permission>hudson.model.Item.Cancel:kdaha</permission>
+    <permission>hudson.model.Item.Cancel:klahyani</permission>
+    <permission>hudson.model.Item.Cancel:ljenbil</permission>
+    <permission>hudson.model.Item.Cancel:mbettioui</permission>
+    <permission>hudson.model.Item.Cancel:mboushaba</permission>
+    <permission>hudson.model.Item.Cancel:mjeffreoui</permission>
+    <permission>hudson.model.Item.Cancel:okhrubiche</permission>
+    <permission>hudson.model.Item.Cancel:soudriss</permission>
+    <permission>hudson.model.Item.Cancel:sthuveny</permission>
+    <permission>hudson.model.Item.Cancel:syounoussi</permission>
+    <permission>hudson.model.Item.Cancel:yelaissaoui</permission>
+    <permission>hudson.model.Item.Cancel:yelomarialaoui</permission>
+    <permission>hudson.model.Item.Cancel:yharif</permission>
+    <permission>hudson.model.Item.Cancel:zhalhoul</permission>
+    <permission>hudson.model.Item.Configure:aheddoun</permission>
+    <permission>hudson.model.Item.Configure:amoutaki</permission>
+    <permission>hudson.model.Item.Configure:hanbeir</permission>
+    <permission>hudson.model.Item.Configure:ibouhamidi</permission>
+    <permission>hudson.model.Item.Configure:ilabyad</permission>
+    <permission>hudson.model.Item.Configure:mjeffreoui</permission>
+    <permission>hudson.model.Item.Configure:yelaissaoui</permission>
+    <permission>hudson.model.Item.Configure:yelomarialaoui</permission>
+    <permission>hudson.model.Item.Create:aheddoun</permission>
+    <permission>hudson.model.Item.Create:amoutaki</permission>
+    <permission>hudson.model.Item.Create:hanbeir</permission>
+    <permission>hudson.model.Item.Create:ibouhamidi</permission>
+    <permission>hudson.model.Item.Create:ilabyad</permission>
+    <permission>hudson.model.Item.Create:mjeffreoui</permission>
+    <permission>hudson.model.Item.Create:yelaissaoui</permission>
+    <permission>hudson.model.Item.Create:yelomarialaoui</permission>
+    <permission>hudson.model.Item.Delete:amoutaki</permission>
+    <permission>hudson.model.Item.Delete:hanbeir</permission>
+    <permission>hudson.model.Item.Delete:ibouhamidi</permission>
+    <permission>hudson.model.Item.Delete:mjeffreoui</permission>
+    <permission>hudson.model.Item.Delete:yelaissaoui</permission>
+    <permission>hudson.model.Item.Delete:yelomarialaoui</permission>
+    <permission>hudson.model.Item.Discover:aheddoun</permission>
+    <permission>hudson.model.Item.Discover:amoutaki</permission>
+    <permission>hudson.model.Item.Discover:hanbeir</permission>
+    <permission>hudson.model.Item.Discover:ibouhamidi</permission>
+    <permission>hudson.model.Item.Discover:ilabyad</permission>
+    <permission>hudson.model.Item.Discover:mjeffreoui</permission>
+    <permission>hudson.model.Item.Discover:yelaissaoui</permission>
+    <permission>hudson.model.Item.Discover:yelomarialaoui</permission>
+    <permission>hudson.model.Item.Move:amoutaki</permission>
+    <permission>hudson.model.Item.Move:ibouhamidi</permission>
+    <permission>hudson.model.Item.Move:yelaissaoui</permission>
+    <permission>hudson.model.Item.Move:yelomarialaoui</permission>
+    <permission>hudson.model.Item.Read:aazri</permission>
+    <permission>hudson.model.Item.Read:abenamer</permission>
+    <permission>hudson.model.Item.Read:aheddoun</permission>
+    <permission>hudson.model.Item.Read:ahoutti</permission>
+    <permission>hudson.model.Item.Read:amasaaf</permission>
+    <permission>hudson.model.Item.Read:amoutaki</permission>
+    <permission>hudson.model.Item.Read:aoufdou</permission>
+    <permission>hudson.model.Item.Read:asekkoume</permission>
+    <permission>hudson.model.Item.Read:bbousnguar</permission>
+    <permission>hudson.model.Item.Read:dfaridi</permission>
+    <permission>hudson.model.Item.Read:felgziri</permission>
+    <permission>hudson.model.Item.Read:felhassan</permission>
+    <permission>hudson.model.Item.Read:hafcalmous</permission>
+    <permission>hudson.model.Item.Read:hanbeir</permission>
+    <permission>hudson.model.Item.Read:helasri</permission>
+    <permission>hudson.model.Item.Read:helyacouti</permission>
+    <permission>hudson.model.Item.Read:hmouloudi</permission>
+    <permission>hudson.model.Item.Read:ibouali</permission>
+    <permission>hudson.model.Item.Read:ibouhamidi</permission>
+    <permission>hudson.model.Item.Read:ierrais</permission>
+    <permission>hudson.model.Item.Read:iimmel</permission>
+    <permission>hudson.model.Item.Read:ilabyad</permission>
+    <permission>hudson.model.Item.Read:jbenabra</permission>
+    <permission>hudson.model.Item.Read:jbousbaa</permission>
+    <permission>hudson.model.Item.Read:kaithililou</permission>
+    <permission>hudson.model.Item.Read:kbimik</permission>
+    <permission>hudson.model.Item.Read:kboudlali</permission>
+    <permission>hudson.model.Item.Read:kdaha</permission>
+    <permission>hudson.model.Item.Read:klahyani</permission>
+    <permission>hudson.model.Item.Read:ljenbil</permission>
+    <permission>hudson.model.Item.Read:mbettioui</permission>
+    <permission>hudson.model.Item.Read:mboushaba</permission>
+    <permission>hudson.model.Item.Read:mjeffreoui</permission>
+    <permission>hudson.model.Item.Read:okhrubiche</permission>
+    <permission>hudson.model.Item.Read:soudriss</permission>
+    <permission>hudson.model.Item.Read:sthuveny</permission>
+    <permission>hudson.model.Item.Read:syounoussi</permission>
+    <permission>hudson.model.Item.Read:yelaissaoui</permission>
+    <permission>hudson.model.Item.Read:yelomarialaoui</permission>
+    <permission>hudson.model.Item.Read:yharif</permission>
+    <permission>hudson.model.Item.Read:zhalhoul</permission>
+    <permission>hudson.model.Item.Workspace:aazri</permission>
+    <permission>hudson.model.Item.Workspace:abenamer</permission>
+    <permission>hudson.model.Item.Workspace:aheddoun</permission>
+    <permission>hudson.model.Item.Workspace:ahoutti</permission>
+    <permission>hudson.model.Item.Workspace:amasaaf</permission>
+    <permission>hudson.model.Item.Workspace:amoutaki</permission>
+    <permission>hudson.model.Item.Workspace:aoufdou</permission>
+    <permission>hudson.model.Item.Workspace:asekkoume</permission>
+    <permission>hudson.model.Item.Workspace:bbousnguar</permission>
+    <permission>hudson.model.Item.Workspace:dfaridi</permission>
+    <permission>hudson.model.Item.Workspace:felgziri</permission>
+    <permission>hudson.model.Item.Workspace:felhassan</permission>
+    <permission>hudson.model.Item.Workspace:hafcalmous</permission>
+    <permission>hudson.model.Item.Workspace:hanbeir</permission>
+    <permission>hudson.model.Item.Workspace:helasri</permission>
+    <permission>hudson.model.Item.Workspace:helyacouti</permission>
+    <permission>hudson.model.Item.Workspace:hmouloudi</permission>
+    <permission>hudson.model.Item.Workspace:ibouali</permission>
+    <permission>hudson.model.Item.Workspace:ibouhamidi</permission>
+    <permission>hudson.model.Item.Workspace:ierrais</permission>
+    <permission>hudson.model.Item.Workspace:iimmel</permission>
+    <permission>hudson.model.Item.Workspace:ilabyad</permission>
+    <permission>hudson.model.Item.Workspace:jbenabra</permission>
+    <permission>hudson.model.Item.Workspace:jbousbaa</permission>
+    <permission>hudson.model.Item.Workspace:kaithililou</permission>
+    <permission>hudson.model.Item.Workspace:kbimik</permission>
+    <permission>hudson.model.Item.Workspace:kboudlali</permission>
+    <permission>hudson.model.Item.Workspace:kdaha</permission>
+    <permission>hudson.model.Item.Workspace:klahyani</permission>
+    <permission>hudson.model.Item.Workspace:ljenbil</permission>
+    <permission>hudson.model.Item.Workspace:mbettioui</permission>
+    <permission>hudson.model.Item.Workspace:mboushaba</permission>
+    <permission>hudson.model.Item.Workspace:mjeffreoui</permission>
+    <permission>hudson.model.Item.Workspace:okhrubiche</permission>
+    <permission>hudson.model.Item.Workspace:soudriss</permission>
+    <permission>hudson.model.Item.Workspace:sthuveny</permission>
+    <permission>hudson.model.Item.Workspace:syounoussi</permission>
+    <permission>hudson.model.Item.Workspace:yelaissaoui</permission>
+    <permission>hudson.model.Item.Workspace:yelomarialaoui</permission>
+    <permission>hudson.model.Item.Workspace:yharif</permission>
+    <permission>hudson.model.Item.Workspace:zhalhoul</permission>
+    <permission>hudson.model.Run.Delete:amoutaki</permission>
+    <permission>hudson.model.Run.Delete:hanbeir</permission>
+    <permission>hudson.model.Run.Delete:ibouhamidi</permission>
+    <permission>hudson.model.Run.Delete:ilabyad</permission>
+    <permission>hudson.model.Run.Delete:mjeffreoui</permission>
+    <permission>hudson.model.Run.Delete:yelaissaoui</permission>
+    <permission>hudson.model.Run.Delete:yelomarialaoui</permission>
+    <permission>hudson.model.Run.Replay:amoutaki</permission>
+    <permission>hudson.model.Run.Replay:ibouhamidi</permission>
+    <permission>hudson.model.Run.Replay:yelaissaoui</permission>
+    <permission>hudson.model.Run.Replay:yelomarialaoui</permission>
+    <permission>hudson.model.Run.Update:amoutaki</permission>
+    <permission>hudson.model.Run.Update:hanbeir</permission>
+    <permission>hudson.model.Run.Update:ibouhamidi</permission>
+    <permission>hudson.model.Run.Update:ilabyad</permission>
+    <permission>hudson.model.Run.Update:mjeffreoui</permission>
+    <permission>hudson.model.Run.Update:yelaissaoui</permission>
+    <permission>hudson.model.Run.Update:yelomarialaoui</permission>
+    <permission>hudson.model.View.Configure:amoutaki</permission>
+    <permission>hudson.model.View.Configure:hanbeir</permission>
+    <permission>hudson.model.View.Configure:ibouhamidi</permission>
+    <permission>hudson.model.View.Configure:ilabyad</permission>
+    <permission>hudson.model.View.Configure:mjeffreoui</permission>
+    <permission>hudson.model.View.Configure:yelaissaoui</permission>
+    <permission>hudson.model.View.Configure:yelomarialaoui</permission>
+    <permission>hudson.model.View.Create:amoutaki</permission>
+    <permission>hudson.model.View.Create:hanbeir</permission>
+    <permission>hudson.model.View.Create:ibouhamidi</permission>
+    <permission>hudson.model.View.Create:ilabyad</permission>
+    <permission>hudson.model.View.Create:mjeffreoui</permission>
+    <permission>hudson.model.View.Create:yelaissaoui</permission>
+    <permission>hudson.model.View.Create:yelomarialaoui</permission>
+    <permission>hudson.model.View.Delete:amoutaki</permission>
+    <permission>hudson.model.View.Delete:hanbeir</permission>
+    <permission>hudson.model.View.Delete:ibouhamidi</permission>
+    <permission>hudson.model.View.Delete:ilabyad</permission>
+    <permission>hudson.model.View.Delete:mjeffreoui</permission>
+    <permission>hudson.model.View.Delete:yelaissaoui</permission>
+    <permission>hudson.model.View.Delete:yelomarialaoui</permission>
+    <permission>hudson.model.View.Read:aazri</permission>
+    <permission>hudson.model.View.Read:abenamer</permission>
+    <permission>hudson.model.View.Read:aheddoun</permission>
+    <permission>hudson.model.View.Read:ahoutti</permission>
+    <permission>hudson.model.View.Read:amasaaf</permission>
+    <permission>hudson.model.View.Read:amoutaki</permission>
+    <permission>hudson.model.View.Read:aoufdou</permission>
+    <permission>hudson.model.View.Read:asekkoume</permission>
+    <permission>hudson.model.View.Read:bbousnguar</permission>
+    <permission>hudson.model.View.Read:dfaridi</permission>
+    <permission>hudson.model.View.Read:felgziri</permission>
+    <permission>hudson.model.View.Read:felhassan</permission>
+    <permission>hudson.model.View.Read:hafcalmous</permission>
+    <permission>hudson.model.View.Read:hanbeir</permission>
+    <permission>hudson.model.View.Read:helasri</permission>
+    <permission>hudson.model.View.Read:helyacouti</permission>
+    <permission>hudson.model.View.Read:hmouloudi</permission>
+    <permission>hudson.model.View.Read:ibouali</permission>
+    <permission>hudson.model.View.Read:ibouhamidi</permission>
+    <permission>hudson.model.View.Read:ierrais</permission>
+    <permission>hudson.model.View.Read:iimmel</permission>
+    <permission>hudson.model.View.Read:ilabyad</permission>
+    <permission>hudson.model.View.Read:jbenabra</permission>
+    <permission>hudson.model.View.Read:jbousbaa</permission>
+    <permission>hudson.model.View.Read:kaithililou</permission>
+    <permission>hudson.model.View.Read:kbimik</permission>
+    <permission>hudson.model.View.Read:kboudlali</permission>
+    <permission>hudson.model.View.Read:kdaha</permission>
+    <permission>hudson.model.View.Read:klahyani</permission>
+    <permission>hudson.model.View.Read:ljenbil</permission>
+    <permission>hudson.model.View.Read:mbettioui</permission>
+    <permission>hudson.model.View.Read:mboushaba</permission>
+    <permission>hudson.model.View.Read:mjeffreoui</permission>
+    <permission>hudson.model.View.Read:okhrubiche</permission>
+    <permission>hudson.model.View.Read:soudriss</permission>
+    <permission>hudson.model.View.Read:sthuveny</permission>
+    <permission>hudson.model.View.Read:syounoussi</permission>
+    <permission>hudson.model.View.Read:yelaissaoui</permission>
+    <permission>hudson.model.View.Read:yelomarialaoui</permission>
+    <permission>hudson.model.View.Read:yharif</permission>
+    <permission>hudson.model.View.Read:zhalhoul</permission>
+    <permission>hudson.scm.SCM.Tag:amoutaki</permission>
+    <permission>hudson.scm.SCM.Tag:hanbeir</permission>
+    <permission>hudson.scm.SCM.Tag:ibouhamidi</permission>
+    <permission>hudson.scm.SCM.Tag:ilabyad</permission>
+    <permission>hudson.scm.SCM.Tag:mjeffreoui</permission>
+    <permission>hudson.scm.SCM.Tag:yelaissaoui</permission>
+    <permission>hudson.scm.SCM.Tag:yelomarialaoui</permission>
+    <permission>jenkins.metrics.api.Metrics.HealthCheck:amoutaki</permission>
+    <permission>jenkins.metrics.api.Metrics.HealthCheck:ibouhamidi</permission>
+    <permission>jenkins.metrics.api.Metrics.HealthCheck:yelaissaoui</permission>
+    <permission>jenkins.metrics.api.Metrics.HealthCheck:yelomarialaoui</permission>
+    <permission>jenkins.metrics.api.Metrics.ThreadDump:amoutaki</permission>
+    <permission>jenkins.metrics.api.Metrics.ThreadDump:ibouhamidi</permission>
+    <permission>jenkins.metrics.api.Metrics.ThreadDump:yelaissaoui</permission>
+    <permission>jenkins.metrics.api.Metrics.ThreadDump:yelomarialaoui</permission>
+    <permission>jenkins.metrics.api.Metrics.View:amoutaki</permission>
+    <permission>jenkins.metrics.api.Metrics.View:ibouhamidi</permission>
+    <permission>jenkins.metrics.api.Metrics.View:yelaissaoui</permission>
+    <permission>jenkins.metrics.api.Metrics.View:yelomarialaoui</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.LDAPSecurityRealm" plugin="ldap@1.14">
+    <server>ldap://ldapauth.sqli.com</server>
+    <rootDN>ou=personsqli,o=sqli,c=com</rootDN>
+    <inhibitInferRootDN>false</inhibitInferRootDN>
+    <userSearchBase></userSearchBase>
+    <userSearch>uid={0}</userSearch>
+    <groupMembershipStrategy class="jenkins.security.plugins.ldap.FromGroupSearchLDAPGroupMembershipStrategy">
+      <filter></filter>
+    </groupMembershipStrategy>
+    <managerDN>uid=jenkinsmaroc,ou=LdapAccounts,o=sqli,c=com</managerDN>
+    <managerPasswordSecret>{AQAAABAAAAAQTDjFBBpwu7FJu4bit86g/wtMsIcx5Q5qpv+jNLB/2lg=}</managerPasswordSecret>
+    <disableMailAddressResolver>false</disableMailAddressResolver>
+    <displayNameAttributeName>displayname</displayNameAttributeName>
+    <mailAddressAttributeName>mail</mailAddressAttributeName>
+    <userIdStrategy class="jenkins.model.IdStrategy$CaseInsensitive"/>
+    <groupIdStrategy class="jenkins.model.IdStrategy$CaseInsensitive"/>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/jobs/${ITEM_FULLNAME}/workspace</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.RawHtmlMarkupFormatter" plugin="antisamy-markup-formatter@1.5">
+    <disableSyntaxHighlighting>false</disableSyntaxHighlighting>
+  </markupFormatter>
+  <jdks>
+    <jdk>
+      <name>jdk1.7.0_79</name>
+      <home>/opt/jdk1.7.0_79</home>
+      <properties/>
+    </jdk>
+    <jdk>
+      <name>jdk1.8.0_111</name>
+      <home>/usr/lib/jvm/jdk1.8.0_111</home>
+      <properties/>
+    </jdk>
+  </jdks>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>Tous</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>SDM-JOBS-jobs-to-delete</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>CONFIG_CMSSITE</string>
+        <string>Déploiement environnement RECETTE-NEW</string>
+        <string>Initialisation properties wording</string>
+        <string>Intégration properties wording - NEW</string>
+        <string>Moulinex - Récupération maquettes WAX</string>
+        <string>Tefal.com Déploiement environnement DEV (branche dev)-NEW</string>
+        <string>Tefal.com Déploiement environnement TEST-NEW</string>
+        <string>Tefal.com Déploiement environnement TEST2 (branche test)-NEW</string>
+        <string>Tefal.com Déploiement environnement TRAINING-NEW</string>
+        <string>Tefal.com Integration branche-17.X</string>
+        <string>Tefal.com Livraison environnement PREP (branche prep)-NEW</string>
+        <string>Tefal.com Transport branche DEV vers branche TEST</string>
+        <string>Tefal.com Transport branche DEV-BIS vers branche RECETTE</string>
+        <string>Tefal.com Transport branche TEST vers branche PREP (+ prod)</string>
+        <string>Tefal.com_Integration_branche_DEV</string>
+        <string>TESTRec</string>
+        <string>VHOST SOLR AND JS PROPERTIES CHECKING-NEW</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>Selenium</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>5560_Tefal.FR</string>
+        <string>5561_T-falUSA.com</string>
+        <string>5562_Tefal.AT</string>
+        <string>5563_Tefal.BE</string>
+        <string>5564_Tefal.CH</string>
+        <string>5565_Tefal.CO.UK</string>
+        <string>5566_Tefal.DE</string>
+        <string>5567_Tefal.ES</string>
+        <string>5568_Tefal.NL</string>
+        <string>5569_Tefal.PT</string>
+        <string>5570_Moulinex.BE</string>
+        <string>5571_Moulinex.FR</string>
+        <string>5572_Rowenta.FR</string>
+        <string>5573_Rowenta.IT</string>
+        <string>5574_Rowenta.PT</string>
+        <string>5575_RowentaUSA.com</string>
+        <string>5576_All-Clad.com</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+        <org.jenkinsci.plugins.schedulebuild.ScheduleBuildButtonColumn plugin="schedule-build@0.4.0"/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>GIT-SQLI-JOBS-to-delete</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy_Automatique_APP1_12h00-00h00 ( Branche DEV )_NEW</string>
+        <string>SEB_BUILD-NEW</string>
+        <string>SEB_Deploy_APP1_APP4_NEW</string>
+        <string>SEB_Deploy_APP2_APP3_NEW</string>
+        <string>SEB_Deploy_APP5-NEW</string>
+        <string>SEB_TEMPLATE_BUILD</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>DigitalReady_Migration-Hy6.5</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../listView[3]/jobNames/comparator"/>
+        <string>Migration-Deploy</string>
+        <string>Migration_Build</string>
+        <string>MigV6_Déploiement_environnement_RECETTE</string>
+        <string>MigV6_Tefal.com_Déploiement_environnement_TEST</string>
+        <string>MigV6_Tefal.com_Déploiement_environnement_TEST2</string>
+        <string>Tefal.com Livraison environnement V6</string>
+        <string>TestChangementJenkins</string>
+        <string>SecondTest</string>
+        <string>V6.5_MR_Checker</string>
+        <string>V6_App9_Build+Deploy</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+        <org.jenkinsci.plugins.schedulebuild.ScheduleBuildButtonColumn plugin="schedule-build@0.4.0"/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>SEB-and-Share</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>SEB-and-Share_Build_6.X</string>
+        <string>SEB-and-Share_Build_Deploy_APP1_Every_00h00</string>
+        <string>SEB-and-Share_Build_master</string>
+        <string>SEB-and-Share_Build_master_Auto_Every-30min</string>
+        <string>SEB-and-Share_Deploy_APP1</string>
+        <string>SEB-and-Share_Deploy_APP2</string>
+        <string>SEB-and-Share_Integration_Branche-6.X</string>
+        <string>SEB-and-Share_Integration_Branche-master</string>
+        <string>SEB-and-Share_livraison_DEV</string>
+        <string>SEB-and-Share_livraison_PREP</string>
+        <string>SEB-and-Share_livraison_TEST</string>
+        <string>SEB-and-Share_MR_Checker</string>
+        <string>SEB-and-Share_refresh_APP1</string>
+        <string>SEB-and-Share_refresh_APP2</string>
+        <string>SEB-and-Share_refresh_DEV</string>
+        <string>SEB-and-Share_refresh_TEST</string>
+        <string>SEB-and-Share_Sonar</string>
+        <string>SEB-and-Share_TAG</string>
+        <string>TestDev</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+        <org.jenkinsci.plugins.schedulebuild.ScheduleBuildButtonColumn plugin="schedule-build@0.4.0"/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>DevOps</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Ansible_Deploy_Hybris</string>
+        <string>Ansible_Refresh_ITG</string>
+        <string>AUTO_Build_Deploy_APP1</string>
+        <string>Build_Deploy_APP</string>
+        <string>Build_Dev_Auto_Every-30min</string>
+        <string>Build_HotFix_Auto_Every-30min</string>
+        <string>JDK_Switcher_TEST</string>
+        <string>MR_Checker</string>
+        <string>Refresh_APP1</string>
+        <string>SDM_Sonar</string>
+        <string>SEB_BUILD-NEW-min</string>
+        <string>SEB_Deploy_APP6</string>
+        <string>Solr_Gen</string>
+        <string>SSH_To_App9</string>
+        <string>TNR_every_night</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+        <org.jenkinsci.plugins.schedulebuild.ScheduleBuildButtonColumn plugin="schedule-build@0.4.0"/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>Wraith</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Wraith_test</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+        <org.jenkins.plugins.builton.BuiltOnColumn plugin="built-on-column@1.1"/>
+        <hudson.plugins.favorite.column.FavoriteColumn plugin="favorite@2.3.0"/>
+        <org.jenkinsci.plugins.schedulebuild.ScheduleBuildButtonColumn plugin="schedule-build@0.4.0"/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>DevOps_To_Delete</name>
+      <description>Old Jobs to delete</description>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Ansible_Deploy_Hybris-Test</string>
+        <string>AUTO_Build_Deploy_APP1_old</string>
+        <string>AUTO_Build_Deploy_APP6</string>
+        <string>Deploiement_Recette_Nexus</string>
+        <string>pipe_sonar</string>
+        <string>SDM_TAG</string>
+        <string>TEST_PIPE</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+        <org.jenkins.plugins.builton.BuiltOnColumn plugin="built-on-column@1.1"/>
+        <hudson.plugins.favorite.column.FavoriteColumn plugin="favorite@2.3.0"/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>SDM-JOBS</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../listView[8]/jobNames/comparator"/>
+        <string>DigitalReady - Refresh TEST</string>
+        <string>DigitalReady - Refresh TEST2</string>
+        <string>DigitalReady - Refresh TRAINING-NEW</string>
+        <string>DigitalReady_Refresh_RECETTE-NEW</string>
+        <string>Déploiement_environnement_RECETTE-NEW2</string>
+        <string>Tefal.com Livraison environnement (branche Release)-NEW</string>
+        <string>Tefal.com_Déploiement_environnement_TEST2_(branche-test)-NEW2</string>
+        <string>Tefal.com_Déploiement_environnement_TEST_(branche-test)-NEW</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+        <org.jenkins.plugins.builton.BuiltOnColumn plugin="built-on-column@1.1"/>
+        <hudson.plugins.favorite.column.FavoriteColumn plugin="favorite@2.3.0"/>
+        <org.jenkinsci.plugins.schedulebuild.ScheduleBuildButtonColumn plugin="schedule-build@0.4.0"/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>SEB_SHARE_6-4</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>SEB-and-Share_Build_6-4</string>
+        <string>SEB-and-Share_Deploy_APP4</string>
+        <string>SEB-and-Share_refresh_APP4</string>
+        <string>SS_MR_Checker</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+        <org.jenkins.plugins.builton.BuiltOnColumn plugin="built-on-column@1.1"/>
+        <hudson.plugins.favorite.column.FavoriteColumn plugin="favorite@2.3.0"/>
+        <org.jenkinsci.plugins.schedulebuild.ScheduleBuildButtonColumn plugin="schedule-build@0.4.0"/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>TEMPLATES</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy_Solr</string>
+        <string>SEB_TEMPLATE_BUILD</string>
+        <string>SEB_TEMPLATE_DELIVERY</string>
+        <string>SEB_TEMPLATE_DEPLOY_TEST_1_ENV</string>
+        <string>SEB_TEMPLATE_DEPLOY_TEST_2_ENV</string>
+        <string>Selenium_Template&apos;n&apos;Test</string>
+        <string>Sync_GitLab_GitHub</string>
+        <string>TEMPLATE_Build</string>
+        <string>TEMPLATE_Build_Jenkinsfile</string>
+        <string>TEMPLATE_BuildnDeploy_Jenkinsfile</string>
+        <string>TEMPLATE_Check_Compile_Jenkinsfile</string>
+        <string>TEMPLATE_Deploy</string>
+        <string>TEMPLATE_Deploy_Environemment</string>
+        <string>TEMPLATE_Deploy_Jenkinsfile</string>
+        <string>TEMPLATE_Merge_Request</string>
+        <string>TEMPLATE_Tag</string>
+        <string>TEMPLATE_Validate_Jenkinsfile</string>
+        <string>TEST_Build_Migration_JenkinsFile</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+        <org.jenkins.plugins.builton.BuiltOnColumn plugin="built-on-column@1.1"/>
+        <hudson.plugins.favorite.column.FavoriteColumn plugin="favorite@2.3.0"/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+  </views>
+  <primaryView>DigitalReady_Migration-Hy6.5</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label></label>
+  <nodeProperties/>
+  <globalNodeProperties/>
+</hudson>
